@@ -1,7 +1,7 @@
 import java.util.Locale;
 import java.util.Scanner;
 
-public class Sintaxte_Operadores_Cumulativa {
+public class Sintaxe_Operadores_Cumulativa {
 
     public static void main(String[] args) {
 
