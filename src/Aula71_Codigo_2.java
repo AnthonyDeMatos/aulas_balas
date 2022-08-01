@@ -10,18 +10,18 @@ public class Aula71_Codigo_2 {
 
         Locale.setDefault(Locale.US);
         Scanner sc = new Scanner(System.in);
-        Aula71_Calculator calc = new Aula71_Calculator();
 
-        System.out.println("Enter radius: ");
+        System.out.print("Enter radius: ");
         double radius = sc.nextDouble();
+        System.out.println(" ");
 
-        double c = calc.circumference(radius);
+        double c = Aula71_Calculator.circumference(radius);
 
-        double v = calc.volume(radius);
+        double v = Aula71_Calculator.volume(radius);
 
         System.out.printf("Circumference %.2f%n", c);
         System.out.printf("Volume %.2f%n", v);
-        System.out.printf("PI value:  %.2f%n", calc.PI);
+        System.out.printf("PI value:  %.2f%n", Aula71_Calculator.PI);
 
 
         sc.close();
